@@ -50,7 +50,7 @@ public class MergeSort
         int k = lindex;
         while(i<=middle && j<=hindex)
         {
-            if(tempMergeArr[i] <= tempMergeArr[j])
+             if(tempMergeArr[i] <= tempMergeArr[j])
             {
                 array[k]=tempMergeArr[i];
                 i++;

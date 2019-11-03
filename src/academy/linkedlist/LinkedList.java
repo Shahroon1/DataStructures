@@ -25,7 +25,6 @@ public class LinkedList {
     public void insertAtStart(int data){
         Node node = new Node();
         node.data = data;
-        node.next = null;
         node.next = head;
         head = node;
     }
@@ -52,8 +51,8 @@ public class LinkedList {
             }
     }
     //Deletion At Specified index
-    public void delete(int index)
-    {
+       public void delete(int index)
+        {
         Node n = head;
         Node n1 = null;
         for (int i = 0; i < index-1;i++)
@@ -62,9 +61,17 @@ public class LinkedList {
         }
         n1 = n.next;
         n.next = n1.next;
-
-
         }
+
+       /* public void delete (int data)
+        {
+            Node node = head;
+            while (node.data == data)
+            {
+                node = node.next;
+            }
+                     Node n1 = node.next;
+        }*/
 
         public void show()
                 //Printing the LinkedList

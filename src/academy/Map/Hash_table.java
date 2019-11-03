@@ -1,10 +1,11 @@
-package academy.Hash;
+
+package academy.Map;
 
 import java.util.Hashtable;
 
 import java.util.Hashtable;
 
-public class Main
+public class Hash_table
 {
     public static void main(String[] args)
     {
